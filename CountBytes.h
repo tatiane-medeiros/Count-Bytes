@@ -34,7 +34,7 @@ void show(int *array){
         uchar a = QByteArray::number(i).toInt(&ok,16);
 
         if(array[i] != 0) std::cout <<i<<' '<< a<<' '<< array[i]<< std::endl;
-           //qDebug()<< i<< qPrintable(QByteArray::fromHex(QByteArray::number(i))) << "freq:"<< array[i];
+
     }
 
    std::cout <<"\n\n";
