@@ -8,6 +8,7 @@ QT       += core
 
 QT       -= gui
 
+
 TARGET = Count-Bytes
 CONFIG   += console
 CONFIG   -= app_bundle

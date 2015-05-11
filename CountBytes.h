@@ -28,6 +28,7 @@ int* countbytes( QString name){
 }
 
 
+
 void show(int *array){
     for(int i=0; i<256; ++i){
         bool ok;
